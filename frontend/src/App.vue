@@ -11,7 +11,7 @@
     <main class="app-main">
       <header class="app-head">
         <span class="head-desc">面向光伏电站并网、方阵逆变器监测、组件清洗巡检、消缺处理与发电量结算的一体化运维后台。</span>
-        <span class="head-user">当前值班：{{ store.operator }} · {{ store.shiftLabel }}</span>
+        <span class="head-user">当前值班：{{ store.operator }}（{{ store.role }}）· {{ store.shiftLabel }}</span>
       </header>
       <RouterView />
     </main>
